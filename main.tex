@@ -1,0 +1,40 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{style} % Use US Letter paper, change to a4paper for A4 
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tikz}
+\usetikzlibrary{shapes, calc, positioning, backgrounds, arrows,automata,mindmap}
+\usepackage{adjustbox}
+\usepackage{graphicx}
+\def\ci#1{\textcircled{\resizebox{.5em}{!}{#1}}}
+
+\begin{document}
+%\includegraphics[scale=0.065]{nitinFaceSmall.png}
+\namesection{{nitin}}{bhushan\\
+%\Large{data science | energy transition | %research}}
+\large{data scientist | educator | consultant |}}
+{
+\href{mailto:bhushan.nitin@posteo.net}{\ci{\faEnvelope}} {\fontsize{8}{8}\selectfont \href{mailto:bhushan.nitin@posteo.net}{bhushan.nitin@posteo.net}}}
+{
+\ci{\faPhone}  {\fontsize{10}{10}\selectfont +31 644 024 293} 
+}
+{
+\href{https://github.com/nbhushan}{\ci{\faGithub}} {\fontsize{9}{9}\selectfont \href{https://github.com/nbhushan}{nbhushan.github.io}}
+}
+{
+\href{https://www.linkedin.com/in/bhushannitin/}{\ci{\faLinkedin}}
+{\fontsize{9}{9}\selectfont  \href{https://www.linkedin.com/in/bhushannitin/}{nbhushan}}
+}
+\leavevmode \\
+%\leavevmode \\
+%\input{page1.tex}
+%\input{page2.tex}
+\input{cover.tex}
+\end{document}
